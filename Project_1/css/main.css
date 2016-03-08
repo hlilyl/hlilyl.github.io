@@ -109,7 +109,8 @@ html {
 
 .headline {
     width: 690px;
-    font-size: 3em;
+    font-size: 2.75em;
+    padding: 0px 0px 0px 10px;
 }
 
 
@@ -117,13 +118,14 @@ html {
    background-image: url('../Main.jpg');
    height: 742px;
    width: 990px;
-   padding: 5px 0px 200px 0px;
+   padding: 5px 0px 200px 10px;
+   font-size: .8em;
 }
 
 .form label {
     display: inline-block;
-    width: 150px;
-    
+    width: 140px;
+    height: 23px;   
 }
 .form input {
     display: inline-block;
@@ -131,12 +133,12 @@ html {
 
 .register {
     font-size: 1.25em;
-    padding: 5px 0px 0px 0px;
+    padding: 5px 0px 0px 10px;
 }
 
 .text {
-    padding: 0px 0px 75px 0px;
-    font-size: .9em;
+    padding: 0px 0px 120px 0px;
+    font-size: 1em;
 }
 
 .social {
@@ -145,15 +147,25 @@ html {
 
 .copy {
     font-size: .5em;
-    padding: 75px 10px 5px 0px;
+    padding: 75px 10px 5px 10px;
 }
 
 .interior {
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
 }
 
 .exterior {
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
+}
+
+.form-col-left {
+    float: left;
+}
+
+.form-col-right{
+    float: left;
+    font-size: .9em;
+    padding: 0px 0px 0px 10px;
 }
 /* ==========================================================================
    Helper classes

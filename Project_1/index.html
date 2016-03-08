@@ -30,12 +30,12 @@
                     </div>
                 </div>
                 <div class="row-2 clearfix">
-                    <div class="container">
                         <div class="form">
                         <div class="text">
                             The all-new fourth-generation 2016 Prius liftback. The new version of this global green icon takes<br/>the hybrid concept farther than ever with striking design, with expected higher fuel economy ratings,<br/>and greater ride comfort. New levels of driving satisfaction and refinement will reward the Prius faithful<br/>and surprise those new to the movement.
                         </div>
-                        <form methpd="post" action="confirmation.html">
+                        <form methpd="post" class="clearfix" action="confirmation.html">
+                            <div class="form-col-left">
                                <span>
                                     <label for="first-name">First Name</label>
                                     <input type="text" name="user_firstname" id="first-name" value=""/>
@@ -126,7 +126,7 @@
                                             <option value="OR">Oregon</option>
                                             <option value="PA">Pennsylvania</option>
                                             <option value="RI">Rhode Island</option>
-                                            <option value="SC">South Carolina</option>
+                                               <option value="SC">South Carolina</option>
                                             <option value="SD">South Dakota</option>
                                             <option value="TN">Tennessee</option>
                                             <option value="TX">Texas</option>
@@ -139,6 +139,22 @@
                                             <option value="WY">Wyoming</option></select>    
                                         </select>
                                 </span>
+                            </div><!-- end of form col left -->
+                            <div class="form-col-right">
+                                <div class="submit">
+                                  <input type="checkbox" value="">
+                                    Yes, I would like to receive future Toyota product announcements.  
+                                  </input><br/>
+                                  <input type="checkbox">
+                                    Yes, I am 18 years or older with a valid driver's license.
+                                  </input><br/>
+                                  <input type="checkbox">
+                                    Yes, I have read the official rules. <a href="rules"> Click here for the full set of rules.</a>
+                                  </input><br/>
+                                  <button type="submit">Submit</button>
+                                </div>
+                            </div><!-- end of form col right -->
+                        </form>
                     </div>
                     <div class="interior">
                         Interior Photos
@@ -152,9 +168,9 @@
                     <div>
                         <img src="exterior.jpg" alt="">
                     </div>   
-                </div>
-                <div class="copy">
-                ©2016 Toyota Motor Sales, U.S.A., Inc. All information applies to U.S. vehicles only.
+                    <div class="copy">
+                    ©2016 Toyota Motor Sales, U.S.A., Inc. All information applies to U.S. vehicles only.
+                    </div>
                 </div>
             </main>
     </body>
