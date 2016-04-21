@@ -129,6 +129,12 @@ html {
 
 .location {
     padding: 100px 50px 0px 45px;
+    height: 482px;
+}
+
+.box {
+    width: 990px;
+    height: 740px;
 }
 
 .menu {
@@ -145,12 +151,6 @@ html {
 
 .picture {
     width: 990px;
-    height: 482px;
-}
-
-.box {
-    width: 990px;
-    height: 740px;
     background: #3D0A00;
     padding: 40px 0px 0px 20px;
     color: #DBAB6D;
@@ -218,6 +218,14 @@ html {
     width: 100px;
 }
 
+.sashimi input {
+    width: 100px;
+}
+
+.gin_salads input {
+    width: 100px;
+}
+
 .big_box {
     width: 990px;
     height: 830px;
@@ -226,16 +234,11 @@ html {
 
 .address {
     color: #DBAB6D;
-    padding: 75px 75px 0px 75px;
 }
 
-.location_picture {
-    padding: 25px 0px 0px 25px;
-}
 
 .hours_location {
     color: #DBAB6D;
-    padding: 75px 75px 0px 0px;
     text-align: right;
 }
 
@@ -258,6 +261,33 @@ html {
 
 .photo2 {
     padding: 0px 9px 18px 9px;
+}
+.box_location {
+    width: 854px;
+    height: 377px;
+    background: #DBAB6D;
+    margin-left: 68px;
+
+}
+
+.driving_direction {
+    color: #DBAB6D;
+    padding: 40px 0px 10px 68px;
+}
+
+.coming {
+    color: #3D0A00;
+    padding: 15px 0px 0px 15px;
+}
+
+.comingg {
+    color: #3D0A00;
+    padding: 0px 0px 0px 15px;
+}
+
+.direction {
+    color: #3D0A00;
+    padding: 0px 0px 0px 15px; 
 }
 /* ==========================================================================
    Helper classes
