@@ -129,12 +129,16 @@ html {
 
 .location {
     padding: 100px 50px 0px 45px;
-    height: 482px;
+
 }
 
 .box {
     width: 990px;
     height: 740px;
+    background: #3D0A00;
+    padding: 40px 0px 0px 20px;
+    color: #DBAB6D;
+
 }
 
 .menu {
@@ -151,9 +155,7 @@ html {
 
 .picture {
     width: 990px;
-    background: #3D0A00;
-    padding: 40px 0px 0px 20px;
-    color: #DBAB6D;
+    height: 482px; 
 }
 
 .box2 {
@@ -234,12 +236,18 @@ html {
 
 .address {
     color: #DBAB6D;
+    padding: 75px 75px 0px 75px;
+}
+
+.location_picture {
+    padding: 25px 0px 0px 25px;
 }
 
 
 .hours_location {
     color: #DBAB6D;
     text-align: right;
+    padding: 75px 75px 0px 0px;
 }
 
 .box_gallery {
