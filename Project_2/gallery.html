@@ -10,6 +10,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/GinSushimain.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
         
     </head>
     <body>
@@ -18,87 +19,118 @@
                 <div class="row-1 clearfix">
                     <div class="header">   
                         <div class="logo float-left">
-                        <a href="GinSushi.html"><img src="logo.png" alt="gin logo"/></a>
+                            <a href="GinSushi.html"><img src="logo.png" alt="gin logo"/></a>
                         </div>
                         <div class="row-2 clearfix">
-                        <div class="location float-left">
-                        <a href="location.html">Location</a>
-                        </div>
-                        <div class="menu float-left">
-                        <a href="menu.html">Menu/Online Ordering</a>
-                        </div>
-                        <div class="gallery float-left">
-                        <a href="gallery.html">Gallery</a>
-                        </div>
-                        <div class="about float-left">
-                        <a href="about.html">About/Reviews</a>
+                            <div class="location float-left">
+                                <a href="location.html">Location</a>
+                            </div>
+                            <div class="menu float-left">
+                                <a href="menu.html">Menu/Online Ordering</a>
+                            </div>
+                            <div class="gallery float-left">
+                                <a href="gallery.html">Gallery</a>
+                            </div>
+                            <div class="about float-left">
+                                <a href="about.html">About/Reviews</a>
+                            </div>
                         </div>
                     </div>
                 </div> 
                 <div class="box_gallery">
                     <div class="row_1_gallery clearfix">
-                        <div class="photo11 float-left">
-                        <img src="1.jpg">
-                        </div>
-                        <div class="photo1 float-left">
-                        <img src="2.jpg">
-                        </div>
-                        <div class="photo1 float-left">
-                        <img src="3.jpg">
-                        </div>
-                        <div class="photo1 float-left">
-                        <img src="4.jpg">
-                        </div>
+                        <a href="1.jpg" title="image 1" class="photo11 float-left">
+                            <img src="1.jpg">
+                        </a>
+                        <a href="2.jpg" title="image 2"  class="photo1 float-left">
+                            <img src="2.jpg">
+                        </a>
+                        <a href="3.jpg" title="image 3"  class="photo1 float-left">
+                            <img src="3.jpg">
+                        </a>
+                        <a href="4.jpg" title="image 4"  class="photo1 float-left">
+                            <img src="4.jpg">
+                        </a>
+                    </div>
                     <div class="row_2_gallery clearfix"> 
                         <div class="photo22 float-left">
-                        <img src="5.jpg">
+                            <img src="5.jpg">
                         </div>
                         <div class="photo2 float-left">
-                        <img src="6.jpg">
+                            <img src="6.jpg">
                         </div>
                         <div class="photo2 float-left">
-                        <img src="7.jpg">
+                            <img src="7.jpg">
                         </div>
                         <div class="photo2 float-left">
-                        <img src="8.jpg">
+                            <img src="8.jpg">
                         </div>
+                    </div>
                     <div class="row_3_gallery clearfix"> 
                         <div class="photo22 float-left">
-                        <img src="9.jpg">
+                            <img src="9.jpg">
                         </div>
                         <div class="photo2 float-left">
-                        <img src="10.jpg">
+                            <img src="10.jpg">
                         </div>
                         <div class="photo2 float-left">
-                        <img src="11.jpg">
+                            <img src="11.jpg">
                         </div>
                         <div class="photo2 float-left">
-                        <img src="12.jpg">
+                            <img src="12.jpg">
                         </div>
+                    </div>
                      <div class="row_4_gallery clearfix"> 
                         <div class="photo22 float-left">
-                        <img src="13.jpg">
+                            <img src="13.jpg">
                         </div>
                         <div class="photo2 float-left">
-                        <img src="14.jpg">
+                            <img src="14.jpg">
                         </div>
                         <div class="photo2 float-left">
-                        <img src="15.jpg">
+                            <img src="15.jpg">
                         </div>
                         <div class="photo2 float-left">
-                        <img src="16.jpg">
+                            <img src="16.jpg">
                         </div>
-                     <div class="row_5_gallery clearfix"> 
+                    </div>
+                    <div class="row_5_gallery clearfix"> 
                         <div class="photo22 float-left">
-                        <img src="17.jpg">
+                            <img src="17.jpg">
                         </div>
                         <div class="photo2 float-left">
-                        <img src="18.jpg">
+                            <img src="18.jpg">
                         </div>
                         <div class="photo2 float-left">
-                        <img src="19.jpg">
+                            <img src="19.jpg">
                         </div>
                         <div class="photo2 float-left">
-                        <img src="20.jpg">
+                            <img src="20.jpg">
                         </div>
-                    
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="word_footer">
+                    3589 E Colorado Blvd | Pasadena CA 91107 | Tel:  (626) 440-9611
+                    </div>
+                    <div class="social align="center" ">
+                    <img src="social.png"/>
+                    </div>
+
+            </main>
+        </div>
+        <script src="js/jquery-2.2.3.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script>
+        $(document).ready(function () {
+            $('.box_gallery').magnificPopup({
+              delegate: 'a', // child items selector, by clicking on it popup will open
+              type: 'image',
+              gallery:{enabled:true}
+              // other options
+            });
+        });
+        </script>
+
+    </body>
+</html>

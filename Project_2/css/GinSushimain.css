@@ -141,14 +141,31 @@ html {
 
 }
 
-
-
-
 table{
-    width:475px;
+    width:430px;
 }
 
+.stable {
+    width: 545px;
+}
 
+.table_sushi {
+    width: 410px;
+}
+
+.sushi_roll_table {
+    width: 400px;
+    margin-left: 20px;
+}
+
+.btable {
+    width: 555px;
+}
+
+.ptable {
+    width: 630px;
+    margin-left: -15px;
+}
 
 .menu {
     padding: 100px 50px 0px 0px;
@@ -218,28 +235,63 @@ table{
 .box_sushi1 {
     color: #DBAB6D;
     background: #3D0A00;
-    width: 495px;
+    width: 420px;
+    height: 2210px;
+}
+
+.box_sushi2 {
+    color: #DBAB6D;
+    background: #3D0A00;
+    width: 570px;
+    height: 2210px;
 }
 
 .sushi input {
-    width: 75px;
+    width: 65px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .sushi_roll input {
-    width: 100px;
+    width: 65px;
 }
 
 .sashimi input {
-    width: 100px;
+    width: 65px;
+    margin-left: -5px;
+    margin-right: -5px;
 }
 
 .gin_salads input {
-    width: 100px;
+    width: 65px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.premium input {
+    width: 55px;
+    margin-left:-10px;
+    margin-right: -15px;
+}
+
+.broiled input {
+    width: 55px;
+    margin-right: 15px;
+}
+
+.specialty input {
+    width: 55px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.description {
+    font-size: .65em;
 }
 
 .big_box {
     width: 990px;
-    height: 830px;
+    height:1310px;
     background: #3D0A00;
 }
 
@@ -261,7 +313,7 @@ table{
 
 .box_gallery {
     width: 990px;
-    height: 1350px;
+    height: 1280px;
     background: #3D0A00;
 }
 
@@ -306,6 +358,109 @@ table{
     color: #3D0A00;
     padding: 0px 0px 0px 15px; 
 }
+
+.mapbig {
+    padding: 68px 68px 68px 68px;
+}
+
+.footer {
+    width: 990px;
+    height: 130px;
+    background: #DBAB6D;
+    font-size:15px;
+    opacity: .6;
+    text-align: center;
+}
+
+.word_footer {
+    color: #3D0A00;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.box_about {
+    width: 990px;
+    height: 1110px;
+    background: #3D0A00;
+}
+
+.word_about {
+    color:  #DBAB6D;
+    font-size: 20px;
+    padding: 40px 0px 40px 60px;
+}
+
+.photo_about {
+    padding: 20px 20px 0px 0px;
+}
+
+.submit_order {
+   margin-top: 30px;
+}
+
+.Take_our {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.survey_box {
+    width: 924px;
+    height: 480px;
+    background: #DBAB6D;
+    margin-left: 33px;
+    margin-top: 33px;
+}
+
+.form-col-left {
+    float: left;
+}
+
+.form {
+   height: 742px;
+   width: 990px;
+   padding: 20px 0px 0px 60px;
+   font-size: 1.2em;
+   color: #3D0A00;
+}
+
+.form label {
+    display: inline-block;
+    width: 170px;
+    height: 40px;   
+}
+.form input {
+    display: inline-block;
+}
+
+.question {
+    width: 500px;
+    height: 200px;
+    font-size: 1.2em;
+    color: #3D0A00;
+
+}
+
+.form-col-right{
+    float: left;
+    font-size: .9em;
+    padding: 0px 0px 0px 10px;
+}
+
+.question input {
+    display: inline-block;
+    width: 400px;
+    height: 350px;
+}
+
+.question label {
+    width: 400px;
+}
+
+.submit {
+    margin-top:  200px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
